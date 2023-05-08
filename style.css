@@ -1,0 +1,125 @@
+body {
+  font-family: Overpass;
+  background-color: #f9ebc88d;
+  color: #644536;
+  text-align: center;
+  line-height: 1.6;
+  padding: 25;}
+
+  h1, h2, h3 {
+    font-family: Chivo;
+    color: hsl(242, 91%, 45%);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    background-color: #2da140;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+
+  a.button:hover {
+    background-color: #0fdc7c;
+  }
+
+  a.fab:hover {
+    background-color: #0fdc7c;
+  }
+
+
+  .white-class {
+    background-color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 25px auto;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  }
+
+  #header-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  div {
+    border-top: 1px solid red;
+    border-right: 2px dotted black;
+    border-bottom: 1px dashed green;
+    border-left: 2px dotted black;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+    display: flex;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+  }
+
+  .container {
+    max-width: 500px;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+  /* @media screen and (max-width: 700px) {
+    body {
+      background: red;
+    }
+  } */
+/* ol {
+  list-style-type: upper-roman;
+} */
+
+/* ul { */
+  /* list-style-type: none;
+} */
